@@ -61,7 +61,7 @@ if game.PlaceId == 8343259840 then
 
 		function JoinDiscord()  
 			-- setclipboard("https://discord.gg/HrMTYCQC6x")
-			StarterGui:SetCore("SendNotification", {Title = Version; Text = "Thank for choosing Aroxware. For support, dont visit us on Discord, enjoy!"; Icon = "rbxassetid://8426126371"; Duration = 30 })
+			StarterGui:SetCore("SendNotification", {Title = Version; Text = "Thank for choosing Aroxware. For support, visit us on Discord, enjoy!"; Icon = "rbxassetid://8426126371"; Duration = 30 })
 		end
 
 		function BypassAnticheat()
@@ -2119,7 +2119,7 @@ if game.PlaceId == 8343259840 then
 
 	if not Success and Error then
 		pcall(function()
-			local MSGBox = messagebox("this shit errord mane", "The pasting has failed...", 0)
+			local MSGBox = messagebox("Error, Aroxware failed", "Report this to Staff thru Discord", 0)
 		end)
 	end
 end
