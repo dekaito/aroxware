@@ -1714,8 +1714,9 @@ if game.PlaceId == 8343259840 then
 
 		-- #region // Credits Sector
 		CreditsS:AddSeperator("Specials")
-		CreditsS:AddLabel("Aroxiuss - Founder")
-		CreditsS:AddLabel("Aroxiuss & Seii - Scripter")
+		CreditsS:AddLabel("waves - Founder")
+		CreditsS:AddLabel("waves & seii - Scripter")
+		CreditsS:AddLabel("jswitch - ui")
 		-- CreditsS:AddLabel("hook - Fukin furry")
 
 		local ToggleToggleUI = InfoS:AddToggle("UI Shortcut", true, function(V)
