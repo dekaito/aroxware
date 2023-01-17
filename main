@@ -1714,8 +1714,8 @@ if game.PlaceId == 8343259840 then
 
 		-- #region // Credits Sector
 		CreditsS:AddSeperator("Specials")
-		CreditsS:AddLabel("sakuya - Founder")
-		CreditsS:AddLabel("Outliers Hub - God Scripter")
+		CreditsS:AddLabel("Aroxiuss - Founder")
+		CreditsS:AddLabel("Aroxiuss & Seii - Scripter")
 		-- CreditsS:AddLabel("hook - Fukin furry")
 
 		local ToggleToggleUI = InfoS:AddToggle("UI Shortcut", true, function(V)
